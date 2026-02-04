@@ -1,0 +1,11 @@
+
+.sidebar-panel-left{
+    grid-area: left;
+    height: 100vh;
+}
+.main-content-right{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    grid-area: right;
+}
