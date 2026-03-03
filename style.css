@@ -20,12 +20,21 @@ header{
         "left main   right";
     min-height: 100vh;
     gap: 1rem;
+
+    font-family: roboto, sans-serif;
+    color: white;
 }
 
 
 .sidebar-panel-right-grid{
     grid-area: right;
     background: grey;
+    padding: 1rem;
+
+}
+.main-content-header{
+    font-family: roboto, sans-serif;
+    color: black;
     padding: 1rem;
 }
 
@@ -56,10 +65,12 @@ header{
 
 }
 .side-cards{
+    display: grid;
+    align-items: start;
     background-color: red;
     margin: 1em auto;
-    padding: 20px;
+    padding: 40px;
     border-radius: 10px;
     max-width: 300px;
-    max-height: 200px;
+    max-height: 300px;
 }
